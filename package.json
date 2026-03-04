@@ -1,0 +1,22 @@
+{
+  "name": "gym-starter-kit",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Gym Starter Kit - Plantilla HTML/CSS/JS vanilla para crear sitios web de gimnasios",
+  "scripts": {
+    "dev": "python -m http.server 5173",
+    "build": "echo 'No compilation needed - vanilla project'"
+  },
+  "keywords": [
+    "gym",
+    "fitness",
+    "starter-kit",
+    "html",
+    "css",
+    "javascript",
+    "vanilla"
+  ],
+  "author": "",
+  "license": "MIT"
+}

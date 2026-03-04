@@ -1,0 +1,103 @@
+{
+  "gym": {
+    "name": "PowerFit Gym",
+    "tagline": "Transforma tu Cuerpo y Mente",
+    "description": "Únete a PowerFit Gym y descubre la mejor versión de ti mismo con clases de alto nivel, equipamiento profesional y entrenadores certificados.",
+    "logo": {
+      "text": "PF",
+      "abbr": "PowerFit Gym"
+    }
+  },
+  "contact": {
+    "whatsapp": "+5491123456789",
+    "phone": "+5491123456789",
+    "email": "info@powerfitgym.com",
+    "address": "Av. Corrientes 1234, CABA",
+    "googleMapsUrl": "https://maps.google.com/?q=Av.+Corrientes+1234+CABA"
+  },
+  "schedule": {
+    "monday": { "open": "06:00", "close": "23:00" },
+    "tuesday": { "open": "06:00", "close": "23:00" },
+    "wednesday": { "open": "06:00", "close": "23:00" },
+    "thursday": { "open": "06:00", "close": "23:00" },
+    "friday": { "open": "06:00", "close": "22:00" },
+    "saturday": { "open": "08:00", "close": "20:00" },
+    "sunday": { "open": "08:00", "close": "14:00" }
+  },
+  "classes": [
+    {
+      "id": 1,
+      "name": "Boxeo",
+      "description": "Clases de boxeo para todos los niveles. Aprende técnica, defensa y condición física.",
+      "image": "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "intensity": "Alta",
+      "duration": "60 min",
+      "instructor": "Carlos Rodríguez",
+      "schedule": ["Lunes 18:00", "Miércoles 18:00", "Viernes 17:00"]
+    },
+    {
+      "id": 2,
+      "name": "Yoga",
+      "description": "Sesiones de yoga para mejorar flexibilidad, equilibrio y bienestar mental.",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "intensity": "Baja-Media",
+      "duration": "75 min",
+      "instructor": "María González",
+      "schedule": ["Lunes 07:00", "Martes 19:00", "Jueves 07:00", "Sábado 10:00"]
+    },
+    {
+      "id": 3,
+      "name": "CrossFit",
+      "description": "Entrenamiento funcional de alta intensidad para superar tus límites.",
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "intensity": "Muy Alta",
+      "duration": "50 min",
+      "instructor": "Diego Martínez",
+      "schedule": ["Martes 07:00", "Jueves 07:00", "Sábado 09:00"]
+    },
+    {
+      "id": 4,
+      "name": "Spinning",
+      "description": "Clases de ciclismo indoor con música motivadora y gran quema calórica.",
+      "image": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "intensity": "Media-Alta",
+      "duration": "45 min",
+      "instructor": "Ana López",
+      "schedule": ["Lunes 19:00", "Miércoles 19:00", "Viernes 18:00"]
+    },
+    {
+      "id": 5,
+      "name": "Pilates",
+      "description": "Fortalecimiento del core, mejora de postura y flexibilidad con método Pilates.",
+      "image": "https://images.unsplash.com/photo-1598971388198-e09a9d63b649?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "intensity": "Media",
+      "duration": "60 min",
+      "instructor": "Laura Fernández",
+      "schedule": ["Martes 08:00", "Jueves 08:00", "Sábado 11:00"]
+    },
+    {
+      "id": 6,
+      "name": "HIIT",
+      "description": "Entrenamiento de intervalos de alta intensidad para máxima quema calórica.",
+      "image": "https://images.unsplash.com/photo-1554284447-8ac13281312f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      "intensity": "Alta",
+      "duration": "30 min",
+      "instructor": "Roberto Silva",
+      "schedule": ["Lunes 20:00", "Miércoles 20:00", "Viernes 19:00"]
+    }
+  ],
+  "colors": {
+    "primary": "#dc2626",
+    "secondary": "#991b1b",
+    "accent": "#ef4444",
+    "background": "#0a0a0a",
+    "surface": "#1a1a1a",
+    "text": "#ffffff",
+    "textSecondary": "#a1a1aa"
+  },
+  "socialMedia": {
+    "instagram": "https://instagram.com/powerfitgym",
+    "facebook": "https://facebook.com/powerfitgym",
+    "twitter": "https://twitter.com/powerfitgym"
+  }
+}
