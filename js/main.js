@@ -1,82 +1,73 @@
 // Default config
 const defaultConfig = {
   gym: {
-    name: "PowerFit Gym",
-    logo: { text: "PF" }
+    name: "FitClub",
+    logo: { text: "FC" }
   },
   contact: {
-    whatsapp: "+5491123456789",
-    address: "Av. Corrientes 1234, CABA"
+    whatsapp: "+5492604392982",
+    phone: "02604392982",
+    address: "Av. Los Sauces 788, M5600 San Rafael, Mendoza"
   },
   schedule: {
-    monday: { open: "06:00", close: "23:00" },
-    tuesday: { open: "06:00", close: "23:00" },
-    wednesday: { open: "06:00", close: "23:00" },
-    thursday: { open: "06:00", close: "23:00" },
-    friday: { open: "06:00", close: "22:00" },
-    saturday: { open: "08:00", close: "20:00" },
-    sunday: { open: "08:00", close: "14:00" }
+    monday: { open: "08:00", close: "21:00" },
+    tuesday: { open: "08:00", close: "09:00", open2: "14:30", close2: "21:00" },
+    wednesday: { open: "08:00", close: "11:00", open2: "14:30", close2: "21:00" },
+    thursday: { open: "08:00", close: "09:00", open2: "14:30", close2: "21:00" },
+    friday: { open: "08:00", close: "11:00", open2: "14:30", close2: "21:00" },
+    saturday: { open: "09:00", close: "10:00" },
+    sunday: { open: "Cerrado" }
   },
   classes: [
     {
       id: 1,
-      name: "Boxeo",
-      description: "Clases de boxeo para todos los niveles. Aprende técnica, defensa y condición física.",
-      image: "https://images.unsplash.com/photo-1517836357463-d25ddfcbf042?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      intensity: "Alta",
+      name: "Funcional/Musculación",
+      description: "Entrenamiento funcional y de musculación para tonificar y fortalecer todo el cuerpo.",
+      image: "images/classes/funcional-musculacion.jpg",
+      intensity: "Media-Alta",
       duration: "60 min",
-      instructor: "Carlos Rodríguez",
-      schedule: ["Lunes 18:00", "Miércoles 18:00", "Viernes 17:00"]
+      instructor: "FitClub Team",
+      schedule: ["Lunes 8:00-9:00", "Lunes 9:00-10:00", "Lunes 15:00-16:00", "Lunes 19:00-20:00", "Lunes 20:00-21:00", "Martes 8:00-9:00", "Martes 15:00-16:00", "Martes 20:00-21:00", "Miércoles 8:00-9:00", "Miércoles 9:00-10:00", "Miércoles 15:00-16:00", "Miércoles 19:00-20:00", "Miércoles 20:00-21:00", "Jueves 8:00-9:00", "Jueves 15:00-16:00", "Jueves 20:00-21:00", "Viernes 8:00-9:00", "Viernes 9:00-10:00", "Viernes 15:00-16:00", "Viernes 19:00-20:00", "Viernes 20:00-21:00"]
     },
     {
       id: 2,
-      name: "Yoga",
-      description: "Sesiones de yoga para mejorar flexibilidad, equilibrio y bienestar mental.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      intensity: "Baja-Media",
-      duration: "75 min",
-      instructor: "María González",
-      schedule: ["Lunes 07:00", "Martes 19:00", "Jueves 07:00", "Sábado 10:00"]
+      name: "Crossfit",
+      description: "Entrenamiento funcional de alta intensidad para superar tus límites.",
+      image: "images/classes/crossfit.jpg",
+      intensity: "Muy Alta",
+      duration: "60 min",
+      instructor: "FitClub Team",
+      schedule: ["Lunes 14:00-15:00", "Lunes 18:00-19:00", "Lunes 21:00-22:00", "Martes 14:00-15:00", "Martes 18:00-19:00", "Martes 21:00-22:00", "Miércoles 14:00-15:00", "Miércoles 18:00-19:00", "Miércoles 21:00-22:00", "Jueves 14:00-15:00", "Jueves 18:00-19:00", "Jueves 21:00-22:00", "Viernes 14:00-15:00", "Viernes 18:00-19:00", "Viernes 21:00-22:00"]
     },
     {
       id: 3,
-      name: "CrossFit",
-      description: "Entrenamiento funcional de alta intensidad para superar tus límites.",
-      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      intensity: "Muy Alta",
-      duration: "50 min",
-      instructor: "Diego Martínez",
-      schedule: ["Martes 07:00", "Jueves 07:00", "Sábado 09:00"]
+      name: "Act. Física Adultos Mayores",
+      description: "Actividades físicas adaptadas para adultos mayores, mejorando movilidad y salud.",
+      image: "images/classes/adultos-mayores.jpg",
+      intensity: "Baja-Media",
+      duration: "60 min",
+      instructor: "FitClub Team",
+      schedule: ["Lunes 10:00-11:00", "Miércoles 10:00-11:00", "Viernes 10:00-11:00"]
     },
     {
       id: 4,
-      name: "Spinning",
-      description: "Clases de ciclismo indoor con música motivadora y gran quema calórica.",
-      image: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      intensity: "Media-Alta",
-      duration: "45 min",
-      instructor: "Ana López",
-      schedule: ["Lunes 19:00", "Miércoles 19:00", "Viernes 18:00"]
+      name: "Danza Aérea (Tela)",
+      description: "Clases de danza aérea en tela, combinando fuerza, flexibilidad y elegancia.",
+      image: "images/classes/danza-aerea.jpg",
+      intensity: "Media",
+      duration: "60 min",
+      instructor: "FitClub Team",
+      schedule: ["Lunes 16:00-17:00", "Miércoles 16:00-17:00", "Viernes 16:00-17:00"]
     },
     {
       id: 5,
-      name: "Pilates",
-      description: "Fortalecimiento del core, mejora de postura y flexibilidad con método Pilates.",
-      image: "https://images.unsplash.com/photo-1598971388198-e09a9d63b649?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      intensity: "Media",
+      name: "Taekwondo",
+      description: "Artes marciales coreanas para defensa personal, disciplina y condición física.",
+      image: "images/classes/taekwondo.jpg",
+      intensity: "Media-Alta",
       duration: "60 min",
-      instructor: "Laura Fernández",
-      schedule: ["Martes 08:00", "Jueves 08:00", "Sábado 11:00"]
-    },
-    {
-      id: 6,
-      name: "HIIT",
-      description: "Entrenamiento de intervalos de alta intensidad para máxima quema calórica.",
-      image: "https://images.unsplash.com/photo-1554284447-8ac13281312f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      intensity: "Alta",
-      duration: "30 min",
-      instructor: "Roberto Silva",
-      schedule: ["Lunes 20:00", "Miércoles 20:00", "Viernes 19:00"]
+      instructor: "FitClub Team",
+      schedule: ["Martes 19:00-20:00", "Jueves 19:00-20:00"]
     }
   ],
   colors: {
@@ -84,8 +75,9 @@ const defaultConfig = {
     secondary: "#991b1b"
   },
   socialMedia: {
-    instagram: "#",
-    facebook: "#"
+    instagram: "https://www.instagram.com/fitclub.sanrafael/?hl=es-la",
+    facebook: "https://www.facebook.com/people/FitClub-San-Rafael/61572482191640/",
+    twitter: "#"
   }
 };
 
@@ -135,10 +127,28 @@ function renderContent() {
   const mobileWhatsApp = document.querySelector('.navbar-mobile-whatsapp');
   const navbarWhatsApp = document.querySelector('.navbar-whatsapp');
   
-  const whatsappUrl = getWhatsAppUrl('¡Hola! Estoy interesado/a en agendar una clase de prueba.');
-  heroCTA.href = whatsappUrl;
-  mobileWhatsApp.href = whatsappUrl;
-  navbarWhatsApp.href = whatsappUrl;
+  const whatsappUrl = getWhatsAppUrl('Hola, vengo de la web y quiero info de las clases');
+  
+  if (heroCTA) {
+    heroCTA.href = whatsappUrl;
+    console.log('Hero CTA WhatsApp updated:', whatsappUrl);
+  } else {
+    console.log('Hero CTA not found');
+  }
+  
+  if (mobileWhatsApp) {
+    mobileWhatsApp.href = whatsappUrl;
+    console.log('Mobile WhatsApp updated:', whatsappUrl);
+  } else {
+    console.log('Mobile WhatsApp not found');
+  }
+  
+  if (navbarWhatsApp) {
+    navbarWhatsApp.href = whatsappUrl;
+    console.log('Navbar WhatsApp updated:', whatsappUrl);
+  } else {
+    console.log('Navbar WhatsApp not found');
+  }
   
   // Classes Grid
   renderClasses();
@@ -167,7 +177,7 @@ function renderClasses() {
   classesGrid.innerHTML = gymConfig.classes.map(cls => `
     <div class="glass-card class-card">
       <div class="image-overlay">
-        <img src="${cls.image}" alt="${cls.name}" onerror="this.src='https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+        <img src="${cls.image}?v=${Date.now()}" alt="${cls.name}" onerror="this.src='https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
       </div>
       <div class="class-card-content">
         <div>
@@ -248,17 +258,44 @@ function renderSchedules() {
     const schedule = gymConfig.schedule[day.key];
     if (!schedule) return '';
     
+    if (schedule.open === "Cerrado") {
+      return `
+        <div class="schedule-day">
+          <div class="schedule-day-emoji">${day.icon}</div>
+          <div class="schedule-day-name">${day.name}</div>
+          <div class="schedule-day-time closed">
+            <div>Cerrado</div>
+          </div>
+        </div>
+      `;
+    }
+    
     const open = formatTime(schedule.open);
     const close = formatTime(schedule.close);
+    
+    let timeHtml = `
+      <div>${open}</div>
+      <div>a</div>
+      <div>${close}</div>
+    `;
+    
+    if (schedule.open2 && schedule.close2) {
+      const open2 = formatTime(schedule.open2);
+      const close2 = formatTime(schedule.close2);
+      timeHtml += `
+        <div class="schedule-split">y</div>
+        <div>${open2}</div>
+        <div>a</div>
+        <div>${close2}</div>
+      `;
+    }
     
     return `
       <div class="schedule-day">
         <div class="schedule-day-emoji">${day.icon}</div>
         <div class="schedule-day-name">${day.name}</div>
         <div class="schedule-day-time">
-          <div>${open}</div>
-          <div>a</div>
-          <div>${close}</div>
+          ${timeHtml}
         </div>
       </div>
     `;
@@ -267,6 +304,8 @@ function renderSchedules() {
 
 // Format time
 function formatTime(time) {
+  if (time === "Cerrado") return time;
+  
   const [hours, minutes] = time.split(':');
   const hour = parseInt(hours);
   const ampm = hour >= 12 ? 'PM' : 'AM';
@@ -282,7 +321,12 @@ function renderLocation() {
   
   // Location WhatsApp button
   const locationWhatsApp = document.querySelector('.location-github-whatsapp');
-  locationWhatsApp.href = getWhatsAppUrl('¡Hola! Quisiera conocer más sobre el gimnasio.');
+  if (locationWhatsApp) {
+    locationWhatsApp.href = getWhatsAppUrl('Hola, vengo de la web y quiero info de las clases');
+    console.log('Location WhatsApp updated');
+  } else {
+    console.log('Location WhatsApp not found');
+  }
   
   // Location Phone button
   const locationPhone = document.querySelector('.location-phone');
@@ -294,7 +338,6 @@ function renderFooter() {
   document.getElementById('footer-gym-name').textContent = gymConfig.gym.name;
   document.getElementById('footer-instagram').href = gymConfig.socialMedia.instagram || '#';
   document.getElementById('footer-facebook').href = gymConfig.socialMedia.facebook || '#';
-  document.getElementById('footer-twitter').href = gymConfig.socialMedia.twitter || '#';
 }
 
 // Navbar scroll effect
@@ -323,7 +366,7 @@ mobileMenu?.querySelectorAll('a').forEach(link => {
 });
 
 // Smooth scroll behavior
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+document.querySelectorAll('a[href^="#"]:not(.navbar-whatsapp):not(.navbar-mobile-whatsapp):not(.hero-cta-primary):not(.location-github-whatsapp)').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     const href = this.getAttribute('href');
     if (href !== '#') {
